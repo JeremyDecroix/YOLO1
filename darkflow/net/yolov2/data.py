@@ -6,6 +6,7 @@ from copy import deepcopy
 import pickle
 import numpy as np
 import os
+from sys import exit
 
 def _batch(self, chunk):
     """
